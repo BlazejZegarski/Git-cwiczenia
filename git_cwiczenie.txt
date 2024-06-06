@@ -1,0 +1,24 @@
+mkdir zadanie
+cd zadanie
+git init
+git status
+echo "README - wersja 1: Master" > README
+git add README
+git status
+git commit -m "Didabue pliku README."
+git status
+echo ZADANIE 2
+echo "README - wersja 2: Master" > README
+git status
+git diff
+git add README
+gis status
+git diff
+echo "Podstawy używania GIT - praca na plikach" >> README
+git status
+git diff
+git diff --staged
+git commit -m "Zmiany w pliku README"
+echo "Tekst" > zadanie2.txt
+mkdir zadanie_2
+git status
